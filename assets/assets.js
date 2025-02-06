@@ -35,6 +35,10 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import github from './github.png';
+import github_dark from './github-dark.png';
+import linkedin_dark from './linkedin.png';
+import linkedin from './linkedin-dark.png'
 
 export const assets = {
     user_image,
@@ -73,7 +77,11 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+   github,
+   github_dark,
+   linkedin,
+   linkedin_dark
 };
 
 export const workData = [
