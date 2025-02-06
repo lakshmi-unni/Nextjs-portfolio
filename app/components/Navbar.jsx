@@ -45,7 +45,7 @@ const Navbar = () => {
           </li>
 
           <li>
-           <a className ='font-Ovo' href="#services">Services</a>
+           <a className ='font-Ovo' href="#services">Qualifications</a>
           </li>
 
           <li>
