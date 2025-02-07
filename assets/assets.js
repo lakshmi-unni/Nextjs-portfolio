@@ -39,7 +39,19 @@ import github from './github.png';
 import github_dark from './github-dark.png';
 import linkedin_dark from './linkedin.png';
 import linkedin from './linkedin-dark.png'
-
+import react from './react.png';
+import js from './js.png';
+import typescript from './typescript.png';
+import sass from './sass.png';
+import css from './css-3.png';
+import html5 from './html-5.png';
+import nextjs from './nextjs.png';
+import material_ui from './material-ui.png';
+import redux from './redux.png';
+import tailwindcss from './tailwind.png';
+import bootstrap from './bootstrap.png';
+import angular from './angular.png';
+import ant from './ant.png';
 export const assets = {
     user_image,
     code_icon,
@@ -81,31 +93,139 @@ export const assets = {
    github,
    github_dark,
    linkedin,
-   linkedin_dark
+   linkedin_dark,
+   react,
+   js,
+   typescript,
+   sass,
+   css,
+   html5,
+   nextjs,
+material_ui,
+redux,
+tailwindcss,
+bootstrap,
+angular,
+ant
+   
 };
 
+export const skillItem = [
+  {
+    imgSrc: assets.react,
+    label: 'React JS',
+    desc: 'UI Library' // A JavaScript library for building user interfaces
+  },
+  {
+    imgSrc: assets.nextjs,
+    label: 'Next JS',
+    desc: 'SSR Framework' // A React-based framework for server-side rendering and static site generation
+  },
+  {
+    imgSrc: assets.js,
+    label: 'JavaScript',
+    desc: 'Scripting Language' // A programming language for creating dynamic and interactive web content
+  },
+  {
+    imgSrc: assets.typescript,
+    label: 'TypeScript',
+    desc: 'Superset' // A statically typed superset of JavaScript
+  },
+  {
+    imgSrc: assets.redux,
+    label: 'Redux',
+    desc: 'State Management' // A predictable state container for JavaScript apps
+  },
+ 
+  {
+    imgSrc: assets.angular,
+    label: 'Angular',
+    desc: ' Framework' // A TypeScript-based framework for building modern web applications (Angular 2+)
+  },
+  {
+    imgSrc: assets.tailwindcss,
+    label: 'Tailwind CSS',
+    desc: 'Utility CSS' // A utility-first CSS framework for rapid UI development
+  },
+  {
+    imgSrc: assets.sass,
+    label: 'SASS',
+    desc: 'CSS Preprocessor' // A preprocessor scripting language that extends CSS with variables and functions
+  },
+  {
+    imgSrc: assets.css,
+    label: 'CSS3',
+    desc: 'Styling Language' // A stylesheet language used for describing the presentation of a web page
+  },
+  {
+    imgSrc: assets.html5,
+    label: 'HTML5',
+    desc: 'Markup Language' // A markup language used for structuring web content
+  },
+  {
+    imgSrc: assets.bootstrap,
+    label: 'Bootstrap',
+    desc: 'UI Framework' // A front-end framework for building responsive, mobile-first websites
+  },
+  {
+    imgSrc: assets.material_ui,
+    label: 'Material UI',
+    desc: 'Component Library' // A React component library that implements Google's Material Design
+  },
+  {
+    imgSrc: assets.ant,
+    label: 'Ant Design',
+    desc: 'UI Library' // A React-based UI library with a set of high-quality components
+  },
+  {
+    imgSrc: assets.git,
+    label: 'GIT',
+    desc: 'Version Control' // A distributed version control system for tracking changes in source code
+  },
+  {
+    imgSrc: assets.figma,
+    label: 'Figma',
+    desc: 'Design Tool' // A collaborative interface design tool
+  },
+  {
+    imgSrc: assets.vscode,
+    label: 'VS Code',
+    desc: 'Code Editor' // A lightweight but powerful code editor from Microsoft
+  },
+];
+
 export const workData = [
-    {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work1.png',
-    },
-    {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work2.png',
-    },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work4.png',
-    },
+  {
+      title: 'The Canadian Home',
+      description: 'Real Estate App',
+      longDescription: 'The Canadian Home is a real estate platform designed for buying, selling, and renting properties in Canada. It includes advanced search filters for property types, pricing, location, and more. The website is optimized for speed and offers a seamless user experience for both buyers and sellers.',
+      bgImage: '/work1.png',
+      link:'https://thecanadianhome.com/',
+
+  },
+  {
+      title: 'Bluehour App',
+      description: 'Photo Editing App',
+      longDescription: 'Bluehour App is a photo editing platform with advanced features such as resizing, rotating, and auto-enhancing images. It offers an intuitive interface, real-time AI-powered image enhancement, and various filters to create professional-quality photos.',
+      bgImage: '/work2.png',
+      link:'https://taranker.com/shopify-bluehour-seo-app-by-shopify',
+  },
+  {
+      title: 'Luxury Voyage Wellness',
+      description: 'Hotel booking website',
+      longDescription: 'Luxury Voyage Wellness is an exclusive hotel booking website that provides curated luxury accommodations. The platform offers personalized wellness retreat options and integrates booking systems for seamless travel planning, enhancing the overall user experience.',
+      bgImage: '/work3.png',
+      link:'https://luxuryvoyagewellness.com/',
+  },
+  {
+      title: 'Quro Holidays',
+      description: 'UI/UX Design',
+      longDescription: 'Quro Holidays is a project focused on UI/UX design for a travel agency website. The design emphasizes user-friendly navigation, responsive interfaces, and visually appealing layouts. The project aims to improve the user journey from booking a vacation to exploring holiday packages.',
+      bgImage: '/work4.png',
+      link:'https://quroholidays.com/',
+  },
 ]
+
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
@@ -123,45 +243,17 @@ export const infoList = [
 // export const toolsData = [
 //     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
 // ];
-export const skillItem = [
-    {
-      imgSrc: assets.figma,
-      label: 'Figma',
-      desc: 'Design tool'
-    },
-    {
-      imgSrc: assets.git,
-      label: 'CSS',
-      desc: 'User Interface'
-    },
-    {
-      imgSrc:assets.firebase,
-      label: 'JavaScript',
-      desc: 'Interaction'
-    },
-    {
-      imgSrc: assets.mongodb,
-      label: 'NodeJS',
-      desc: 'Web Server'
-    },
-    {
-      imgSrc: assets.vscode,
-      label: 'ExpressJS',
-      desc: 'Node Framework'
-    },
-    {
-      imgSrc: assets.figma,
-      label: 'MongoDB',
-      desc: 'Database'
-    },
-    {
-      imgSrc: assets.figma,
-      label: 'React',
-      desc: 'Framework'
-    },
-    {
-      imgSrc: assets.figma,
-      label: 'TailwindCSS',
-      desc: 'User Interface'
-    },
-  ];
+
+  // EducationData.js
+export const EducationData = [
+  { title: "Masters in Computer Science", location: "CCSI CU Campus, India", year: "2017 - 2019" },
+  { title: "Bachelors of Science in Physics", location: "Sacret Heart College, India", year: "2014 - 2017" },
+  { title: "HSS in Biology Science", location: "SNDPHSS School, India", year: "2012 - 2014" },
+];
+// ExperienceData.js
+export const ExperienceData = [
+  { title: "Front-End Engineer", location: "Kapreign Pvt ltd, India", year: "2024 - Present" },
+  { title: "React Developer", location: "Maple Tech Space Pvt ltd, India", year: "2023 - 2024" },
+  { title: "Front-End Engineer", location: "Bluehour Technologies Pvt Ltd, India", year: "2022 - 2023" },
+  { title: "Web Development Intern", location: "Luminar technolab, India", year: "2021 - 2022" },
+];
