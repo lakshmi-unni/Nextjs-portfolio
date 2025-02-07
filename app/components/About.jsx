@@ -40,7 +40,7 @@ const About = ({isDarkMode}) => {
 
 <p className='mb-10 max-w-2xl font-Ovo'>I am an experienced Front-End Developer with nearly 3 years of expertise in React JS, Next JS, and TypeScript. I specialize in building scalable and high-performance web applications, focusing on clean UI/UX, state management, and seamless API integrations. I am passionate about writing efficient, responsive code that enhances performance, SEO, and user experience."
 
-This keeps it simple, professional, and engaging. Let me know if you'd like any tweaks! 😊</p>
+This keeps it simple, professional, and engaging. Let me know if you'd like any tweaks!😊</p>
 
 
 <motion.ul
