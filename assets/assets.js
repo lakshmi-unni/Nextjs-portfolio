@@ -241,7 +241,7 @@ export const workData = [
 {
 title: 'My Portfolio',
 description: 'Personal Portfolio',
-longDescription: 'portfolio is a personal portfolio website designed to showcase my skills, projects, and experience. The website features a clean and modern design, with easy navigation and interactive elements. It is optimized for performance and user engagement.emailjs is used for contact form.',
+longDescription: 'this is a personal portfolio website designed to showcase my skills, projects, and experience. The website features a clean and modern design, with easy navigation and interactive elements. It is optimized for performance and user engagement.emailjs is used for contact form.',
 bgImage: '/portfolio.jpg',
 link:'https://lakshmiunni-portfolio.netlify.app/',
 },
