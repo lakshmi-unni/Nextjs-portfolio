@@ -224,6 +224,27 @@ export const workData = [
       bgImage: '/work4.png',
       link:'https://quroholidays.com/',
   },
+  {
+    title: 'Salala Mobiles cart',
+    description: 'E-commerce App',
+    longDescription: 'Salala Mobiles Cart is an e-commerce platform for buying and selling mobile phones. The app features a user-friendly interface, and real-time order tracking in cart. It is designed to provide a seamless shopping experience for customers.',
+    bgImage: '/mobilecart.png',
+    link:'https://mobiles-shoping-cart.netlify.app/',
+},
+{
+  title: 'Netflix Clone',
+  description: 'User Interface',
+  longDescription: 'netflix clone is a project focused on UI/UX design for a streaming platform. The design emphasizes user-friendly navigation, responsive interfaces, and visually appealing layouts. The project aims to improve the user journey from watching a movie to exploring new releases.',
+  bgImage: '/netflix.png',
+  link:'https://neflixreact.netlify.app/',
+},
+{
+title: 'My Portfolio',
+description: 'Personal Portfolio',
+longDescription: 'portfolio is a personal portfolio website designed to showcase my skills, projects, and experience. The website features a clean and modern design, with easy navigation and interactive elements. It is optimized for performance and user engagement.emailjs is used for contact form.',
+bgImage: '/portfolio.jpg',
+link:'https://lakshmiunni-portfolio.netlify.app/',
+},
 ]
 
 
