@@ -212,14 +212,14 @@ export const workData = [
   },
   {
       title: 'Luxury Voyage Wellness',
-      description: 'Hotel booking website',
+      description: 'Hotel booking',
       longDescription: 'Luxury Voyage Wellness is an exclusive hotel booking website that provides curated luxury accommodations. The platform offers personalized wellness retreat options and integrates booking systems for seamless travel planning, enhancing the overall user experience.',
       bgImage: '/work3.png',
       link:'https://luxuryvoyagewellness.com/',
   },
   {
       title: 'Quro Holidays',
-      description: 'UI/UX Design',
+      description: 'Travel Agency ',
       longDescription: 'Quro Holidays is a project focused on UI/UX design for a travel agency website. The design emphasizes user-friendly navigation, responsive interfaces, and visually appealing layouts. The project aims to improve the user journey from booking a vacation to exploring holiday packages.',
       bgImage: '/work4.png',
       link:'https://quroholidays.com/',

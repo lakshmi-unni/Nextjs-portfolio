@@ -179,7 +179,7 @@ const Work = ({ isDarkMode }) => {
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.5 }}
-        className="text-center text-5xl font-Ovo"
+        className="text-center text-4xl md:text-5xl font-Ovo"
       >
         My Latest Projects
       </motion.h2>
@@ -202,62 +202,59 @@ const Work = ({ isDarkMode }) => {
         {workData.map((project, index) => {
           return (
             <div key={index} className="block">
-              <motion.div
-                whileHover={{ scale: 1.05 }}
-                transition={{ duration: 0.3 }}
-                className="grid grid-cols-auto my-10 gap-5 dark:text-black"
-              >
-                {/* Next.js Image */}
-                <Image
-                  src={project.bgImage} // Ensure this path is correct
-                  alt={project.title}
-                  width={500} // Adjust width
-                  height={300} // Adjust height
-                  className="w-full h-full object-cover rounded-lg"
-                />
+            <motion.div
+  whileHover={{ scale: 1.05 }}
+  transition={{ duration: 0.3 }}
+  className="relative w-full items-center grid grid-cols-auto my-10 gap-5 dark:text-black"
+>
+  {/* Next.js Image */}
+  <Image
+    src={project.bgImage} 
+    alt={project.title}
+    width={500}
+    height={300}
+    className="w-full h-auto object-cover rounded-lg"
+  />
 
-                {/* Project Details */}
-                <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
-                  <div>
-                    <h2 className="font-semibold inline-block whitespace-nowrap">
-                      {project.title}
-                    </h2>
-                    <p className="text-sm text-gray-700">
-                      {project.description}
-                    </p>
-                    <button
-                      onClick={() => handleModalOpen(project)} // Open modal with project data
-                      className="flex items-center gap-2 text-sm text-blue-600 mt-5"
-                    >
-                      read More
-                      <Image
-                        alt=""
-                        src={assets.right_arrow_bold}
-                        className="w-4"
-                      />
-                    </button>
-                  </div>
+  {/* Project Details */}
+  <div className="bg-white absolute bottom-5 left-1/2 transform -translate-x-1/2 py-3 px-5 flex flex-col items-center justify-center text-center rounded-md shadow-lg max-sm:w-9/12 w-10/12 md:w-4/5 max-w-lg">
+    
+    <h2 className="font-semibold">{project.title}</h2>
+    {/* Send Icon - Positioned at Top-Right */}
+    <a
+      href={project.link || "#"}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="absolute right-3 top-10 group"
+    >
+      <div className="border rounded-full border-black w-7 h-7 flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300">
+        <Image src={assets.send_icon} alt="send icon" width={18} height={18} />
+      </div>
+    </a>
+    <p className="text-sm text-gray-700">{project.description}</p>
+    
+    <button
+      onClick={() => handleModalOpen(project)}
+      className="flex items-center gap-2 text-sm text-blue-600 mt-5"
+    >
+      Read More
+      <Image alt="" src={assets.right_arrow_bold} className="w-4" />
+    </button>
 
-                  {/* <div className="border rounded-full border-black w-7 h-7 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300">
-                    <Image src={assets.send_icon} alt="send icon" width={18} height={18} />
-                  </div> */}
-                  <a
-                    href={project.link || "#"} // Use the project link or a fallback
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group"
-                  >
-                    <div className="border rounded-full border-black w-7 h-7 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300">
-                      <Image
-                        src={assets.send_icon}
-                        alt="send icon"
-                        width={18}
-                        height={18}
-                      />
-                    </div>
-                  </a>
-                </div>
-              </motion.div>
+    {/* <a
+  href={project.link || "#"}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group mt-3"
+>
+  <div className="border rounded-full border-black w-7 h-7 flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300">
+    <Image src={assets.send_icon} alt="send icon" width={18} height={18} />
+  </div>
+</a> */}
+
+  </div>
+</motion.div>
+
             </div>
           );
         })}
