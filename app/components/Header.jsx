@@ -12,7 +12,7 @@ const Header = ({ isDarkMode }) => {
      whileInView={{scale:1}}
      transition={{duration:0.8,type:'spring',stiffness:100}}
      >
-        <Image  src={isDarkMode ? assets.profile_img_dark :assets.profile_img1} alt='' className='' width={210} height={210}/>
+        <Image  src={isDarkMode ? assets.profile_img_dark :assets.profile_img1} alt='' className='' width={250} height={250}/>
        
 
     </motion.div>
