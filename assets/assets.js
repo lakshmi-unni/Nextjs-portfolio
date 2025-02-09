@@ -52,6 +52,10 @@ import tailwindcss from './tailwind.png';
 import bootstrap from './bootstrap.png';
 import angular from './angular.png';
 import ant from './ant.png';
+import profile_img_dark from './profile_img_dark.png';
+import profile_img1 from './profile_img1.png';
+import profile_img2 from './profile_img2.png';
+import profile_img3 from './profile_img3.png';
 export const assets = {
     user_image,
     code_icon,
@@ -106,7 +110,11 @@ redux,
 tailwindcss,
 bootstrap,
 angular,
-ant
+ant,
+profile_img_dark,
+profile_img1,
+profile_img2,
+profile_img3,
    
 };
 

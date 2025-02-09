@@ -3,15 +3,16 @@ import Image from 'next/image'
 import React from 'react'
 import { motion } from "motion/react"
 
-const Header = () => {
+const Header = ({ isDarkMode }) => {
   return (
    <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 pt-28'>
-     <motion.div
+ {/* <div className='w-11/12 max-w-3xl text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-4 pt-40 relative z-10 overflow-hidden'>    */}
+   <motion.div
      initial={{scale:0}}
      whileInView={{scale:1}}
      transition={{duration:0.8,type:'spring',stiffness:100}}
      >
-        <Image  src={assets.profile_img} alt='' className='rounded-full w-32' />
+        <Image  src={isDarkMode ? assets.profile_img_dark :assets.profile_img1} alt='' className='' width={210} height={210}/>
        
 
     </motion.div>
