@@ -38,9 +38,7 @@ const About = ({isDarkMode}) => {
              transition={{duration:0.6,delay:0.8}}
              className="flex-1">
 
-<p className='mb-10 max-w-2xl font-Ovo'>I am an experienced Front-End Developer with nearly 3 years of expertise in React JS, Next JS, and TypeScript. I specialize in building scalable and high-performance web applications, focusing on clean UI/UX, state management, and seamless API integrations. I am passionate about writing efficient, responsive code that enhances performance, SEO, and user experience."
-
-This keeps it simple, professional, and engaging. Let me know if you'd like any tweaks!😊</p>
+<p className='mb-10 max-w-2xl font-Ovo'>I am a Web & Front-End Developer with 3+ years of experience building responsive, high-performance web applications using React.js, Next.js, and TypeScript. I specialize in creating interactive, user-centric interfaces, translating design mockups into functional applications, and optimizing performance, SEO, and user engagement. With experience in AI-driven solutions in the oil & gas sector, I am passionate about writing clean, efficient code that delivers seamless user experiences and scalable, future-ready applications.😊</p>
 
 
 <motion.ul

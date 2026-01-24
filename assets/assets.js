@@ -279,6 +279,7 @@ export const EducationData = [
 ];
 // ExperienceData.js
 export const ExperienceData = [
+  { title: "Digital Analyst", location: "Rejlers Engineering Solutions,AbuDhabi,UAE", year: "2025 - Present" },
   { title: "Front-End Engineer", location: "Kapreign Pvt ltd, India", year: "2024 - Present" },
   { title: "React Developer", location: "Maple Tech Space Pvt ltd, India", year: "2023 - 2024" },
   { title: "Front-End Engineer", location: "Bluehour Technologies Pvt Ltd, India", year: "2022 - 2023" },

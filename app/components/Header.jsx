@@ -34,7 +34,8 @@ const Header = ({ isDarkMode }) => {
    initial={{opacity:0}}
    whileInView={{opacity:1}}
    transition={{duration:0.8,delay:0.7}} 
-  className='max-w-2xl mx-auto font-Ovo'>Frontend web developer with 3 years of expertise in React JS, Next JS. Specialized in building responsive, scalable web applications optimized for performance, accessibility, and SEO. Open to global opportunities.</motion.p>
+  className='max-w-2xl mx-auto font-Ovo'>Frontend Web Developer | React.js & Next.js
+3+ years building responsive, scalable web apps for real estate and oil & gas, optimized for performance and SEO.</motion.p>
   <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
     <motion.a
      initial={{y:30,opacity:0}}
